@@ -30,7 +30,7 @@ jobs:
     runs-on: ubuntu-22.04
     strategy:
       matrix:
-        ndk-version: ["r23b-linux"]
+        ndk-version: ["r22b-linux"]
     defaults:
       run:
         shell: bash
